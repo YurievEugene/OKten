@@ -1,0 +1,33 @@
+body{
+    background: green;
+}
+h1{
+    font-size: 25px;
+    margin-left: 15px;
+}
+p{
+    margin-left: 15px;
+    line-height: 25px;
+}
+.year{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+.month{
+    height: 225px;
+    width: 225px;
+    display: flex;
+    background: lightgoldenrodyellow;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 3px solid green;
+}
+.month:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    font-size: 20px;
+}
+section a{
+    color: white;
+    font-family: Arial;
+}
+#home{
+    background-color: aqua;
+    color: black;
+}
+#info{
+    background-color: gray;
+    color: black;
+}
+#contacts{
+    background-color: black;
+    color: white;
+}

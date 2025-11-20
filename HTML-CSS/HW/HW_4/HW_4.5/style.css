@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------header----------*/
+header{
+    height: 5vh;
+    width: 100vw;
+    background-color: #D9D9D9;
+}
+/*------------------MAIN----------*/
+main{
+    height: 70vh;
+    display: flex;
+    width: 100vw;
+}
+main section{
+    background-color: #A4A4A4;
+    height: 100%;
+    width: 70%;
+}
+div{
+    height: 100%;
+    width: 30%;
+}
+.main-aside-top{
+    background-color: #7F7A7A;
+    height: 50%;
+    width: 100%;
+}
+.main-aside-bottom{
+    height: 50%;
+    width: 100%;
+    background-color: #615050;
+}
+/*------------------FOOTER------------------*/
+footer{
+    height: 25vh;
+    width: 100vw;
+}
+.footer-up{
+    background-color: #D9D9D9;
+    height: 40%;
+}
+.footer-bottom{
+    height: 60%;
+    background-color: #AFA9A9;
+}

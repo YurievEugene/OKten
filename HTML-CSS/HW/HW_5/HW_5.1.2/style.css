@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 150px;
+    width: auto;
+    display: block;
+    animation: move-eye 1s ease-in-out infinite alternate;
+}
+@keyframes move-eye{
+    0%{
+        transform: translate(-80px) rotate(-30deg);
+    }
+    100%{
+        transform: translate(80px) rotate(30deg);
+    }
+}

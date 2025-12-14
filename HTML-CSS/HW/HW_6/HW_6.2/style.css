@@ -1,0 +1,38 @@
+body{
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+.form-registration{
+    border-radius: 20px;
+    background-color: white;
+    height: 40vh;
+    width: 40vw;
+}
+.form-registration div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(32, 178, 171, 0.526);
+}
+.form-registration div:nth-child(1) h2{
+    font-weight: 400px;
+}
+.form-registration form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;   
+}
+input[type="text, email"], input[type="password"]{
+    width: 70%;
+    margin: 15px;
+    height: 25px;
+}
+input[type="checkbox"]{
+    margin-right: 250px;
+}

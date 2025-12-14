@@ -1,0 +1,38 @@
+/* Завдання 1. Для першого блоку: задай кожному парному елементу списку рожевий колір */
+    .block-one > ul > li:nth-child(even) {
+      color: pink; 
+    }
+
+    /* Завдання 2. Для другого блоку: задай кожному не парному елементу списку розмір 22px */
+    #block-two > ul > li:nth-child(odd) {
+      font-size: 22px;
+    }
+
+    /* Завдання 3. Для третього блоку: задай кожному 2-му елементу, 
+                   починаючи з 4-го елемента - псевдоелемент :after та додай "!" */
+    .block-three > ul > li:nth-child(2n + 4):after {
+      content: " !";
+      font-weight: bold;
+      color: green; 
+    }
+
+    /* Завдання 4. Для четвертого блоку: Задай фіолетовий колір для останнього елемента списку */
+    #block-four > ul > li:last-child {
+      color: blueviolet; 
+    }
+
+    /* Завдання 5. Для п'ятого блоку: Задай розмір 30px для перших літер списка, а також зміни колір на червоний */
+    .block-five > ul > li::first-letter {
+      font-size: 30px;
+      color: red; 
+    }
+
+    div {
+        border: 1px solid #ccc;
+        margin-bottom: 15px;
+        padding: 10px;
+        background-color: #f9f9f9;
+    }
+    h3 {
+        margin-top: 0;
+    }

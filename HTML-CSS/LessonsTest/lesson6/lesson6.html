@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        sup{
+            color: red;
+        }
+        .form-registration{
+            border: 3px solid lightgreen;
+            width: 30%;
+            border-radius: 20px;
+            padding: 50px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+        }
+        input[type="text"]{
+            background-color: lightblue;
+            border: 2px solid lightgreen;
+            border-radius: 2px;
+            color: chartreuse;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form class="form-registration">
+        <label for="login1"> Login </label>
+        <input type="text" name="login" id="login1" placeholder="Enter your login" required><sup>*</sup>
+
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="Enter password" required> <sup>*</sup>
+
+        <label>Gender</label>
+        <label><input type="radio" name="Gender" value="Male">Male</label>
+        <label><input type="radio" name="Gender" value="Females">Females</label>
+
+        <label>
+            <input type="checkbox" name="news"> Subscribe for news
+        </label>
+
+        <label for="country">Country</label>
+        <select id="country">
+            <option value="">Choose</option>
+            <option value="ua">Ukraine</option>
+            <option value="USA">USA</option>
+            <option value="CA">Canada</option>
+            <option value="UK">United Kingdom</option>
+        </select>
+
+        <label for="phone"></label>
+        <select id="phone">
+            <optgroup label="Apple">
+                <option value="x">IPhone X</option>
+                <option value="xr">IPhone XR</option>
+                <option value="xs">IPhone XS</option>
+            </optgroup>
+            <optgroup label="Android">
+                <option value="Samsung">Samsung</option>
+                <option value="OPPO">OPPO</option>
+                <option value="ZTE">ZTE</option>
+            </optgroup>
+        </select>
+
+        <label for="textarea"></label>
+        <textarea id="textarea" rows="4"></textarea>
+         
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

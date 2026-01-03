@@ -1,0 +1,12 @@
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .items{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 32px;
+        padding: 16px 32px;
+    }
+    .item{
+        width: 100%px;
+    }
+    
+}

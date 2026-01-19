@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 5% 30% 30% 17% 18%;
+    grid-template-areas: 
+    "header header"
+    "left right-up"
+    "left right-down"
+    "foot foot"
+    "footer footer"
+    ;
+}
+header{
+    grid-area: header;
+    background: #D9D9D9;
+}
+.left{
+    grid-area: left;
+    background: #A4A4A4;
+}
+.right-up{
+    grid-area: right-up;
+    background: #7F7A7A;
+}
+.right-down{
+    grid-area: right-down;
+    background: #615050;
+}
+.foot{
+    grid-area: foot;
+    background: #D9D9D9;
+}
+footer{
+    grid-area: footer;
+    background: #AFA9A9;
+}

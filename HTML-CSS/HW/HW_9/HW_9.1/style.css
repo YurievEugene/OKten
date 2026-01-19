@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+.item{
+    background: #D9D9D9;
+}
+.wrap div:nth-child(2){
+    background: #A4A4A4;
+}
